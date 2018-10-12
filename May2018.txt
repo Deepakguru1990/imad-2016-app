@@ -1,0 +1,2022 @@
+very very imp:
+from accoutn needed for send trnascation
+throw error in ui for fields missing
+
+
+
+FMRID001,USRID001,1,e,e, 
+
+
+
+
+
+
+make sure all values come from blockchain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****************///////////////////*************************************///////////////////*************************************///////////////////********************
+imp: use under thuis till demo:
+Oct 12:
+0. put all files needed ma,e jere
+1. leave lapse ask
+2. get all docs from github/ mail; from this machine, setup necessasy things
+3. start with smart contract, execute full flows in remix, see if u r able to read 1st contract in 2nds as ramu said, as aprana sauid add 2-3 functions, take a4 sheets
+refer what they said
+4. goto banl at 11 break
+5. integrte 1,2,3 screens, write recall as well
+6. take sat/ sun rest + shopping + movies
+
+comments for smart contracts:
+1. add temp/ more details lofic/ add reason while accept/ reject
+2. add functinos for history/ recall
+3. map based on phlot - whlot
+whlot to dist(case) 
+4. get farmer lot from 1st contract using address
+5. avoid having unique addresses for actors as it will take time, have checks in UI than solidity - tell this
+6. add expire logic - status expired/ calling contracts from starbucks
+7. see if you can improve it daily till demo without chacing much in UI, add reason in UI
+8. think in iot/ food traceabiility/ recall point of view, cehck old docs 
+9. replace ipfs to pdf, think of storing app itself in ipfs/ fso screen
+10. think about demo video/ prepararion/ ppt/ docs
+
+find latest contracts to work on today:
+1. contracts - farmer from ui file is contract, only add func to call from 2nd contract
+2. 
+
+
+D:\Projects\2018\02_Projects\10_Sysco_Food_Traceability\Desktop Oct Till Demo Oct 25\Oct11\Smart contracts - versions\Desktop V1\Contracts till warehouse
+
+testing bugs:
+1. add the inputs correctly to the search button and other buttons
+2. on refresh the value is 
+****************///////////////////*************************************///////////////////*************************************///////////////////********************
+to do:
+oct 10:
+1. please let me know if i can check with you on the issue now. The issue is that we are calling a service called web3. This takes longer time to load than the angular4 screen. Hnce to get the necessasry  fields, we have to refresh the angular4 screen manually by pressing F5. Is there a way to solve it. 
+2.
+3.
+4.
+
+Sysco blockchain poc
+aws accounts:
+"0xca35b7d915458ef540ade6068dfe2f44e8fa733c","0x14723a09acff6d2a60dcdf7aa4aff308fddc160c","0x583031d1113ad414f02576bd6afabfb302140225","FMRID001","LOTID001","CertID001",20180830010101,false
+
+search gitter queires nad answers file/.
+
+if your's is a 1:m scenario, you could look at tokenizing the assets as ERC721. This would help you create unique, non-fungible assets which give end to end traceability in your supply chain scenario and also associate necessary (meta)data with it. However, your's looks like(from your diagram at least) that it could be n:1 too(between processor and storehouse for example), so if you're looking at a n:m sort of scenario, I could even suggest ERC998 or ERC1155. Even if not full EIPs, I'm fairly certain you'll find good design patterns for your solution.
+
+its not a service like lambda
+its a sample template, aws wont give support. we have to do it ourselves
+
+file directory angular http-server error:
+Muthulakshmi told 2 times:
+http-server ./dist
+In index.html:
+in base href,  use '.' instead of '/'
+************************************************************************************************************************************************
+Oct 8:
+https://github.com/Deepakguru1990/oct7.git
+unzip filename
+
+display the deployed variables/ instance and see
+see and close after reading web pages
+
+
+search using this: imp!!! imp!!! imp!!!
+
+0x0ADfCCa4B2a1132F82488546AcA086D7E24EA324,0x0bd5EebDC3E53973dDF236D43906C776a5fE3784,0x9537cb86f5a03C8CCB52c44b49757861eCA0004b,0x1Fbc353788338F902630E5494aD7FaC7dF8dBb29,0x5ccBe3B9B15eFB62bB2696051091Ee7C1Eb4c7E6
+
+findings:
+web3 - libraries needed to talk to ethereum node
+1.
+https://web3js.readthedocs.io/en/1.0/web3-eth-personal.html
+WebsocketProvider
+IpcProvider
+
+2.
+https://medium.com/coinmonks/signing-and-making-transactions-on-ethereum-using-web3-js-1b5663207d63
+
+Oct 7:
+github location https://github.com/Quintor/angular-truffle-box
+
+oct 6:
+G:\Deepak\IT_Work_Learnings\Blockchain
+detail secret help fee enforce grief used such valley ridge tomorrow else
+
+
+npm install 
+
+
+truffle init
+run at place db json -> 
+npm install -g json-server
+json-server --watch db.json
+
+npm install --save @angular/material @angular/cdk
+npm install web3@0.20.5
+npm install truffle-contract
+npm install truffle-hdwallet-provider
+truffle compile
+truffle migrate
+
+G:\Deepak\IT_Work_Learnings\Blockchain\Oct6_Oct7\Code\Farmer_App_Oct7\V2>truffle.cmd migrate
+Using network 'development'.
+
+Running migration: 1_initial_migration.js
+  Deploying Migrations...
+  ... 0x6d1a425983a527b0ab2bc6e6b91b250e623277bf2c68e2e2e5902f3f4a841221
+  Migrations: 0x8e7494c2919ce43f1d09683f53bd2df1fb40aa14
+Saving successful migration to network...
+  ... 0xcf5547df04df24a733db789056e7a8111439a0ab92acbedb1febd58c1905c3e8
+Saving artifacts...
+Running migration: 2_deploy_migrations.js
+  Deploying Farmer...
+  ... 0x437fc6ef7c58f8c56a9d3a67a4afb680e3b27ffd10a1a43ab876d26634534b61
+  Farmer: 0xb2a3745961759a5ae3cb8d729942fc3dcdae25df
+Saving successful migration to network...
+  ... 0xdb189335ad8b4613af2a258f2186bd5dd7cc43c01ab329864558d1cdc6b9f1b6
+Saving artifacts...
+************************************************************************************************************************************************
+To do:
+1. Public ethererum network, how to connecct to aws & how to find the addresses & transact/ call Ramu/ ping Aparna/ Mohana
+2. post all queries in gitter & save all the answers
+3. finish smartcontracts & upload to github using recall logic
+4. finish ang6 tutorial and practise all from lex. Create user login app in angular4, use mysql to read and goto new component.
+5. From pjt:
+a. using truffle integrate smart contracts(aws) with angular 4 ui
+b. finish smart contracts 
+c. using truffle integrate angular 4 ui with mysql
+d. finish all 4 actors + recall screens + fso screen
+
+**************************************************************************************************************
+Oct 1:(very imp, see all notes for last 3months)imp!!! imp!!! imp!!!
+To do:
+1. Smart contracts finish testing all logic in remix, check with munish/ aparna - finish today
+2. do aws as Ramu said
+3. follow up with mohana - get angular4 for all 4 actors + integration with mysql, ethereum
+
+now - 4 ui/ integrate with ethereum, mysql, smart contracts
+afterwards - pdf/ ipfs upload cert, recall logic linking, flowchart creation in angular4, adding value by showing completion of successful orders by a farmer
+**************************************************************************************************************
+create public applnc LB in same VPC
+allow only ips of ur pcs
+config listeners to existing ones
+use same Security groups, dont open to public
+put a post pn the current issue.
+**************************************************************************************************************
+To do:
+1. link aws blockchain with angular UI(on desktop/ ec2 itself)
+2. mysql angular integration + angular blockchain integration
+3. all 4 screens
+4. ipfs to add/ get pdfs -> store id in blockchain - see code sample, practise in desktop
+5. smart contracts finish + recall logic
+
+save the code:
+pull from s3
+
+slowness
+upload both ui & etheruem on aws
+
+elastic ip - static public
+vpc - dedicated to account - private
+vpc:
+2 private in 1 zone, 2 puvlic in other xone
+
+20 LB per region
+listerners per LB - 100
+elb - resgional service
+vpc - private ntwk in aws
+traffic =- load balancer to port on ec2
+TG - targt grp - max 200
+LB routes request to TG
+registrer ec2
+
+alb:
+1 subnet per xone
+select target group
+
+create one more lb for another tg
+
+auto scaling
+create ec2 auto scales
+
+Internet gateway:
+Router helps tp connect resources to internet
+create assign to vpc
+route table - subnet, intrnt gateway
+public subnet -> 0.0.0..0/0 -> internet gateway
+
+nat gateway:(created in public)
+for private subnets
+public subnets take names from here
+routes -> 0.0.0.0/0 -> nat
+
+delete auto scling will delete ec2 machines as well
+************************************************************************************************
+imp installation steps software:
+npm install -g ethereumjs-testrpc
+git: https://git-scm.com/download/win
+sample ang4 etheruem dapp - https://github.com/eliafengar/angular-ethereum-blockchain 
+npm install -g @angular/cli
+for linux:
+export PATH=$PATH;C:\Users\username\AppData\Roaming\npm 
+echo $PATH
+for windows:
+set PATH=%PATH%;C:\Users\username\AppData\Roaming\npm 
+echo %PATH%
+**************************************************************************************************************
+Sep 25:
+eterheum stack setup:
+0x0ADfCCa4B2a1132F82488546AcA086D7E24EA324,
+0x0bd5EebDC3E53973dDF236D43906C776a5fE3784,
+0x9537cb86f5a03C8CCB52c44b49757861eCA0004b,
+0x1Fbc353788338F902630E5494aD7FaC7dF8dBb29,
+0x5ccBe3B9B15eFB62bB2696051091Ee7C1Eb4c7E6
+
+0x0ADfCCa4B2a1132F82488546AcA086D7E24EA324
+8000000
+
+correct ecsrole for ethereum:
+arn:aws:iam::666303174975:role/ECSRoleForEthereumAug21 -> sep25
+
+correct ec2 role instance profle:
+arn:aws:iam::666303174975:instance-profile/EC2RoleForEthereumAug21
+
+secret
+
+https://aws-blockchain-templates-us-east-1.s3.amazonaws.com/ethereum/templates/latest/templates/
+
+SyscoEthereumSep25
+
+output:
+http://internal-sysco-loadb-rjvxpgj7griw-1840800368.us-east-1.elb.amazonaws.com:8545/
+http://internal-sysco-loadb-rjvxpgj7griw-1840800368.us-east-1.elb.amazonaws.com:8080/
+http://internal-sysco-loadb-rjvxpgj7griw-1840800368.us-east-1.elb.amazonaws.com/
+
+************************************************************************************************
+"0xca35b7d915458ef540ade6068dfe2f44e8fa733c","0xca35b7d915458ef540ade6068dfe2f44e8fa733c","0x4b0897b0513fdc7c541b6d9d7e929c4e5364d2db","0x583031d1113ad414f02576bd6afabfb302140225","FMRID001","LOTID001","CERTID001",201809211010110,false
+
+
+"0x7c00e60ae4b10ce1411c881e2f418c02b2c4978f","0x2f6089980bd329b75296d3fc775977d0141d9ddb","0x6384cccb3b665807ec9315dbc673fb737b019289","0x917cebf5a58941ebeb8810743a1ce1f2b4d21917","FMRID001","LOTID001","CERTID001",201809211010110,false
+
+
+0x692a70d2e424a56d2c6c27aa97d1a86395877b3a
+
+pragma solidity ^0.4.18;
+// We have to specify what version of compiler this code will compile with
+
+contract Counter {
+
+  uint8 public counts;
+
+  function Counter() public {
+
+  }
+
+  function getCounts() view public returns (uint8) {
+    return counts;
+  }
+
+  function increment() public {
+    counts += 1;
+  }
+
+  function decrement() public {
+    counts -= 1;
+  }
+
+}
+*********************************************************************************************************************see this daily******* for last 3 months******* from******* july 1st *******
+Have this on top. ***to do:***
+**************************************************************************************************************learn from nivedha - RPA pjt
+Blockchain@2009 aws sysco acnt/ Toastmasters - every wednesday as Kaushik said - free for 2 months
+18.218.203.29 elastc ip; Admin123$ keypair
+http://iscls4apps/ITMS/Learning/Index - do certificates!!!! agile, tech every quarter
+english test this week/ next week
+ppt for mohan - believing/ be diplomatic as vinod said/ Phone calls - bank/ sandhya
+learn leading/ managing/ developing new apps
+attend iit class - starts july 30, book for oct 28 exam before sep 1st week
+finish BCM cert exam, aug bang azure session(update lavanya a pjtm angr), collect the gift from ramya, after these blockchain pjt, onsite
+must do:
+http://sparshv2/portals/QualityAcademy/Pages/Quiz.aspx
+take copy of ang code in gmail practise @weekends in home
+follow APL/ arpita, saurabh, arif for planing, docs, etc - https://www.moesif.com/blog/blockchain/ethereum/Tutorial-for-building-Ethereum-Dapp-with-Integrated-Error-Monitoring/
+**************************************************************************************************************https://www.yammer.com/infosys.com/#/Threads/show?threadId=990594674&search_origin=global&scoring=linear1Y-prankie-group-private-higher&match=any-exact&search_sort=relevance&page=1&search=404%20npm
+https://www.iconfinder.com/icons/216309/media_pause_icon
+https://www.materialui.co/icon/mic; 
+http://laboncloud/Home/GetSlots
+*************************************************************************************************************************TOASTMASTERS********ENGLISH TEST Business*********SBI BANK saturday**************
+****************aws set up ethereum ----- smart contracts ------ ui design fix + coding ----- integration with ui*****************
+**************************************************************************************************************base design ui + pjt plan(done) ---- angui(learn and do) --------- smart contracts(design done, coding started) --- setup ethereum(halfway done, error, setup in pc needed/ laptop - web3 issue) ---- integrate(help UI)
+**************************************************************************************************************imp: underscore.js web3.js
+https://github.com/ethereum/remix/issues/588
+**************************************************************************************************************
+**************************************************************************************************************
+Sep 21:
+To do:
+1. do as sylvie said - 2 apps
+2. truffle try
+3. try to upload and interact with dapp on aws
+4. angular4 - contribute to Mohana
+5. Smart contracts - check with Aparna/ Munish
+
+Trial 1:
+D:\Projects\2018\02_Projects\10_Sysco_Food_Traceability\Angular6\trufflesamplesep21
+didnt work truffle migrate
+
+Trial 2:
+https://github.com/shekhar-shubhendu/supply-chain
+D:\Projects\2018\02_Projects\10_Sysco_Food_Traceability\Angular6\trufflesamplesep21\supply-chain-master
+
+smart contracts:
+comments:
+phrecevie reject add input fields
+
+******************************************************************************
+Sep 20:
+******************************************************************************
+Available Accounts
+==================
+(0) 0xecb548707ee4cba7cedf985127fa42da7be28b39
+(1) 0xefd6d7e032b571a6b147741a177a504e2c9b82d1
+(2) 0x865c68f6f9023e2ee475d9f407be61a92124efaf
+(3) 0x0e334f168f7e40236856a1402457077d45891153
+(4) 0xfbd60ff152a32318f32e941834d7c4f424e9937c
+(5) 0x34f5ac199e7c12692be89a94e8fdca9e20d83e39
+(6) 0xc660a937095a12ebd9cf5156dae362557e71eb46
+(7) 0x157b9ccfeb4e4ed92b3d7e2f6e7e8415ad940af1
+(8) 0x250ff248fdf9aa0d458b781fe0c7d1599bf58495
+(9) 0x51c30b76176e09d6825cd976cfca31dd65c3065a
+
+Private Keys
+==================
+(0) 565e8461f25778f70541e08bb1d995a0601e80df5dba8cc54c60401fc0994fe2
+(1) afce5621a257cd91ff96dab9facdfea24bc715363671d01289d268c1773c3ebe
+(2) ae39d08258edecbeb7f87d234700f78faa7ae8a0223d817a68c3e1881f66cc17
+(3) d15f66883171a2c82ed1a08fce63c499a2110c06d12e4e4f41c616eea74e3f39
+(4) f5745769d14073093726d6f1208dae25d3ef747b470acbd841c2c271975892d1
+(5) 64b32380f76e5b202d9916318d4622d53cdd61f56a4c641f6654489d55523852
+(6) ab872fc3b8e9e6d8300dc18378b15183e3ff31105aa2f7c748db9598cb357c30
+(7) 6c97fec507fd0c6869bd922ba64802647591c209dfa6baa3d209bbf91ae18c19
+(8) fc017ca32ae8155092e80c6dfb37aeefbd8087163eb748600dbbca2a1397afc3
+(9) bf338842d3da5f398c91d74aa4a29ad0badbed3b399459f26116eb37e2c86e21
+
+HD Wallet
+==================
+Mnemonic:      
+knee roast ketchup arctic mom pioneer tiny romance east taste clap afraid
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Listening on localhost:8545
+******************************************************************************
+ipfs:
+download: https://docs.ipfs.io/introduction/install/
+$ tar xvfz go-ipfs.tar.gz
+
+$ cd go-ipfs
+$ install.sh
+
+C:\Users\deepak.kumaraguru\Downloads\go-ipfs_v0.4.17_windows-amd64\go-ipfs
+
+http://localhost:5001/webui
+ipfs init
+
+ipfs add -folder-location-of-file
+save the hash along with folder location name
+
+copy it from webui and open in browser to view the orig file.
+
+able to view the folder:
+http://localhost:8080/ipfs/QmUdYZfkXmAiLB68LTsYxMsuwrMNrVVA8BFtfrRH2RGPXi
+
+able to view the file:
+http://localhost:8080/ipfs/Qmck2GCYByAAyCNvuABRy7MKArqfU31VHxHCYub75cfoTS
+
+****************************************************************************
+Sep 20:
+To Do:
+1.
+Call with xpo - market place 2 30pm - 3 00 pm
+2.
+see all mails, check with selva about wat to do with sysco app
+3.
+call with sylvie - prepare in advance!
+4.
+file:///D:/Projects/2018/02_Projects/10_Sysco_Food_Traceability/Angular6/Blockchain_ang_sample_V1/food-safety/src/index.html      ---> have a look at this!!!!
+D:\Projects\2018\02_Projects\10_Sysco_Food_Traceability\Angular6\Blockchain_ang_sample_V1\food-safety
+start with local etehreum linking with ui - done
+
+upload code to aws, try samppple ethereum dapp using web3 - inprogress
+then rty with truffle =- see waht is needed - to do
+D:\Projects\2018\02_Projects\10_Sysco_Food_Traceability\Angular6\trufflesamplesep21\supply-chain-master> -- app working in localblcockchain
+truffle.cmd command working
+extra folders in app are: truffle.js/ contracts/ ipfs/ wallet etc
+
+
+then try for aws ethereurm linking with ui
+**** ******** ******** ******** **** **** ******** ******** ******** ******** ******** ****
+https://github.com/eliafengar/angular-ethereum-blockchain --- working sep19 ---> tried but didbnt able to connect with aws ang app
+but it worked from local blockchain.
+Welcome to Angular Frontend with Backend Ethereum Blockchian!
+**** ******** ******** ******** **** **** ******** ******** ******** ******** ******** ****
+
+now after lunch:
+finish the smart contracts , check with apranar, 
+with hel[p of ramu, deploy sample dapp file to aws access from there
+code angular with mohana
+****************************************************************************
+********************************************************************************
+Sep 19:
+To do:
+1. Finish 1roundof testing sample ui angular integrated with smart contracts on aws - 2 ways -> web3 + metamask or using truffle
+2. Start with smart contracts as ramu/ aparna said, check with her once with webex as she is in odc
+3. finish atleast 1 screen for irise sysco
+4. try to complete angular 4 screens in 2 weeks along with integration with smart contracts actual one.
+5. give trainng aws 24,25,26, english test before 30 sep
+********************************************************************************
+Sep 18:
+nestor: https://xd.adobe.com/view/587d5248-a91e-4471-646b-553c65fdde0c-2e4c/?fullscreen
+sep 21:
+https://xd.adobe.com/view/587d5248-a91e-4471-646b-553c65fdde0c-2e4c/
+aashita - https://projects.invisionapp.com/share/2TNQ5QQSAQ9#/screens/316704723
+1. last mile - to customer(delivered to office), no bidding, only routing
+2. LOB - brokerage  -> app name -  DriveXpo -> move from 1 place to another - wh to factory, Dist center to another Dist centere(busines to busineess)
+brokerage - drive -> go for vijasree - brokerage - has bidding.
+
+
+3. etrack -> used by last mile team -> for drivers(for last mile only), no bidding used here
+
+4. no customer app in XPO;
+only customer website -> xpo website
+
+queries:
+1. xpo connect??
+2. xpo connect & drive xpo have bidding???
+
+********************************************************************************
+Sep 17:
+ethstats/ ethexplorer - privaate subnet(1)
+load balncer-1 public submuiet
+bastion host - another public subnet
+
+vpc - public one not used by most for security pursposes
+so use a private vpc for creating ec2
+
+ec2 deploy angular2
+https://www.youtube.com/watch?v=tasoWTGM1hA
+
+sysco-blockchain-sample-app
+Dapps tutorials:
+https://eattheblocks.com/todo-list-ethereum-dapp-step6/
+https://www.youtube.com/watch?v=-1c5hb_Y2MM&list=PLbbtODcOYIoGfbrnfxgwva0Fktju0L449
+https://eattheblocks.com/category/series/todo-list-ethereum-dapp/
+https://www.youtube.com/watch?v=6kH56n5FxcQ
+https://www.youtube.com/channel/UCb3Rrg2t4PZ59Sna497DUZA?sub_confirmation=1
+
+cdn - content distribution network - > aws cloudfront
+
+git config --global http.proxy http://deepak.kumaraguru:Feb2018%24@10.87.21.34:80
+git config --global https.proxy https://deepak.kumaraguru:Feb2018%24@10.87.21.34:80
+
+usign the ethereum wallet to deploy contracts
+
+********************************************************************************
+Sep 10:
+Hi,
+Tried to use the Rpc url(created at end of aws ethereum templates) in metamask/ remix ide(injected web3/ web3 provider).
+
+Also, got 5 accounts addresses(from initial list of accounts while creating the ethereum stack in aws). But unable to use it in the Remix ethereum IDE(in web3 provider). 
+1) Web3 provider(dropdown) in remix shows the account ID correctly(that I used in AWS stack creation), but the accounts drop down does not show any of my 5 accounts from AWS ethereum stack that was set up.
+Stuck with this for a very long time.
+
+2) Also in metamask while connecting to custom rpc, it gets connected, but shows a different account address which is not there in the AWS stack created before.
+Is there a need to use import accounts explicity in metamask. 
+
+3) Where can we get the private key that is mentioned in import accounts in metamask.
+
+4) Also is there a need for the eth stats secret that we used in etheruem stack creation in aws, cross checked that there is no need so far.
+
+5) How to deploy contracts and interact with them using both Remix and Metamask
+Please let me know the issue.
+Thanks in advance!
+Regards,
+Deepak.
+
+imp urls queries:
+similar to testrpc, we have ganache
+https://stackoverflow.com/questions/48702308/remix-account-get-private-key 
+https://stackoverflow.com/questions/52269369/steps-to-consume-the-ethjson-url-in-metamask-and-in-remix-ethereum
+https://stackoverflow.com/users/7979856/deepak-kumaraguru
+**********************************************************************************************************************************
+bastion host is in public network, hence we were able to connect using putty
+
+3 ec2 machiens are in private, hence putty wont work, try using ssh
+
+send test ether - https://faucet.ropsten.be/
+
+sep 7:
+************************************************
+testiong:
+************************************************
+contract 1:
+"0xca35b7d915458ef540ade6068dfe2f44e8fa733c","0x14723a09acff6d2a60dcdf7aa4aff308fddc160c","0x4b0897b0513fdc7c541b6d9d7e929c4e5364d2db","0x583031d1113ad414f02576bd6afabfb302140225","FMRID001","LOTID001","CertID001",20180830010101,0,false
+
+"PHID001",20180907010101
+
+once ph receives, 
+0x28Dd7d6f41331e5013eE6c802641cC63B06C238a gets created
+select ph from contracts list and load the address 0x28Dd7d6f41331e5013eE6c802641cC63B06C238a
+************************************************
+contract 2:
+craeate ph
+"LOTIDPH001","CERTID001",2018080808101010,0,10,"","ok"
+
+read:
+"LOTIDPH001"
+
+transfer:
+"LOTIDPH001","","",2018101010090901,"WHID001"
+z"LOTIDPH001",""
+************************************************
+create wh:
+
+read:
+"LOTIDPH001","LOTIDWH001"
+
+transfer:
+************************************************
+create dist:
+
+read:
+"LOTIDPH001","LOTIDWH001","DISTID001"
+
+transfer:
+************************************************
+create fso:
+"LOTIDPH001","LOTIDWH001","FSO001",40,2018090909101010,0,"CERTID0003","Hyatt","ok"
+
+read:
+"LOTIDPH001","LOTIDWH001","FSO001"
+
+transfer:
+
+************************************************
+review with aparna:
+**********************************************************************************************************************************
+Sep 6:
+sep - stack name:
+4444 - private
+0x0ADfCCa4B2a1132F82488546AcA086D7E24EA324,
+0x0bd5EebDC3E53973dDF236D43906C776a5fE3784,
+0x9537cb86f5a03C8CCB52c44b49757861eCA0004b,
+0x1Fbc353788338F902630E5494aD7FaC7dF8dBb29,
+0x5ccBe3B9B15eFB62bB2696051091Ee7C1Eb4c7E6
+ethstats
+https://aws-blockchain-templates-us-east-1.s3.amazonaws.com/ethereum/templates/latest/templates/
+
+sep 6 - stack name
+1 - public
+0x0ADfCCa4B2a1132F82488546AcA086D7E24EA324,
+0x0bd5EebDC3E53973dDF236D43906C776a5fE3784,
+0x9537cb86f5a03C8CCB52c44b49757861eCA0004b,
+0x1Fbc353788338F902630E5494aD7FaC7dF8dBb29,
+0x5ccBe3B9B15eFB62bB2696051091Ee7C1Eb4c7E6	
+secret
+https://aws-blockchain-templates-us-east-1.s3.amazonaws.com/ethereum/templates/latest/templates/
+*********************************************************************************************
+Sep 5:
+/***********************/
+completed - Done V1 Sep5 ---> D:\Projects\2018\02_Projects\10_Sysco_Food_Traceability\Requirements\Solidity Code\Sep4 trials
+here mapping is separate but still almost all r done
+/***********************/
+V2 Sep 5:
+make it linked with 1 another.
+farmer:
+"0xca35b7d915458ef540ade6068dfe2f44e8fa733c","0x14723a09acff6d2a60dcdf7aa4aff308fddc160c","0x4b0897b0513fdc7c541b6d9d7e929c4e5364d2db","0x583031d1113ad414f02576bd6afabfb302140225","FMRID001","LOTID001","CERTID001",20180830010101,"",false
+*********************************************************************************************
+do what aparna said
+create public netwrok name: 1 or 2o r 3o r4
+try open network as k any1 from team
+fininsnh and submit/ demo smart contracts
+asdd negative conditions/ checks from UI
+test reject scenario
+throw error or revert if wrong txn is done - like ph trying to accept ph lot
+need to add corresponsding unit's ID , also link with prev units.
+combines all the 3 structs to 1 after checking with Aparna
+add a logic to check first whether the asset is there before making any action/ also check if asset already not there for new creation
+add logic to not process recall as per reason entered.
+or add a bool recall in PH/ WH struct
+add else revert to all if cases
+for date comparison use starbucks date contract
+pyut proper clean comments/ clean codes/ remove unwanted waste code
+ask feedaback
+//while creating new phlot, add it to farmer contract to keep track of all phlots created for a farmer id
+	//send the lot created for processing
+*********************************************************************************************
+user case we know/ starbucks - 6 months - smart contracts archit/ code base was there
+ui was already there/ no need integration
+6 ppl were there - prabhu/ me/ lakshmi/ munish/ ramya/ 1 more .net person
+
+here for sysco
+ ui - to be develoepd newly from scrath
+integration with ui - from scratch
+setup of ethereum - half needs to be done
+smart contracts -f rom scratch
+
+
+/********************************************************************************************************************************/
+Sep 4:
+find who else is accessing 3rd url - how to find? cloudtrail/ cloudwatch
+
+smart contracts testing 1:
+"0xca35b7d915458ef540ade6068dfe2f44e8fa733c","0x14723a09acff6d2a60dcdf7aa4aff308fddc160c","0x4b0897b0513fdc7c541b6d9d7e929c4e5364d2db","0x583031d1113ad414f02576bd6afabfb302140225","FMRID001","PHID001","LOTID001","LOTIDPH001","CertID001",20180909101010
+
+503 -  service unaialbale
+https://aws.amazon.com/blogs/aws/get-started-with-blockchain-using-the-new-aws-blockchain-templates/
+
+accounts:
+0x0ADfCCa4B2a1132F82488546AcA086D7E24EA324,
+0x0bd5EebDC3E53973dDF236D43906C776a5fE3784,
+0x9537cb86f5a03C8CCB52c44b49757861eCA0004b,
+0x1Fbc353788338F902630E5494aD7FaC7dF8dBb29,
+0x5ccBe3B9B15eFB62bB2696051091Ee7C1Eb4c7E6-1000etger
+
+sep 3:
+To do:
+1. ramu/ roshan - 3rd url, follow up on tkt rasised, ask ramu also ro rasie tkt
+2. once 3rd url working, do wats put in the - https://forums.aws.amazon.com/thread.jspa?messageID=866232&#866232
+think trying to do this will work
+3. finishcheck smart contracts with aprana tomorrow
+do english cveertificate/ join toastmasretrs/ finish aws certificate/ do blockchain cert iit madras
+
+
+1 cattle -> lotA -> farmer sends to PH
+
+lotA received by PH -> prepare raw meats, map raw meats
+
+check the ssl extender tkt with ccd, tell its not woring
+
+try sending ppt
+finish smart contracts today
+tell roshan things foxyproxy
+Muthu Chiranjeevi
+https://cloudconnect
+store code in gmail
+send smart contracts design to ramu/vnod
+
+https://aws-blockchain-templates-us-east-1.s3.amazonaws.com/ethereum/templates/latest/templates/
+Secret
+https://aws-blockchain-templates-us-east-1.s3.amazonaws.com/ethereum/templates/latest/templates/
+
+http://internal-sysco-loadb-1ixj4pmkxfhwb-752417001.us-east-1.elb.amazonaws.com
+http://internal-sysco-loadb-1ixj4pmkxfhwb-752417001.us-east-1.elb.amazonaws.com:8080/
+http://internal-sysco-loadb-1ixj4pmkxfhwb-752417001.us-east-1.elb.amazonaws.com:8545/
+
+
+bastion host & ec2 instance under same EC2 SG -> 1 of the ip address in both the places ---> reason for having error in 2nd url
+also add ur ips in security groups - both alb/ ec2
+explore for errors like ramu
+
+
+follow upramu for tkt rasing for error in 3rd url 8545
+all trffic is good between 8545 adno ther ports
+******************************************************************************************************************************
+Aug 30:
+Focus:
+1. Try goin by 3pmbus today. send amma to sho, take care, do work, attend call at 7pm
+2. finish send smart contracts screenshots + ppt showing flow + functions
+3. prepare and learn angular 4 from Muthulakshmi + dhana
+think of both bakenf db + blocchain perspectiver nad note down the steps for desing
+
+create asset/ lot/ lotph
+transfertoph
+lot
+lotreject
+use LOTapprove instead of ASSETRCVD
+TRANSFERREDTOWH
+reject, have reset
+acceptrehtcetdlot
+
+REDCALL-PHID/LOTID DO RECALL
+WITH FARMER SEE THE % OF REJECTION FOR FARMER
+
+REDUCET THE SCORE OF FAMER
+ADD REASON AS DORP DOWN
+WAH REJECT
+TEMP REJECT
+DIST REJEC
+CUSOMTER REJECT
+
+ADD A REJCET RESON OFOR EACH SACTOR
+
+FARMER SCORE HAVE IT IN DB
+SHOW FVLAUIE AND REHJECT POINTS SHOW IN UI
+
+**********************************************************************************************************************************
+***imp***aug29
+Aug 29:
+To do:
+1) no wassap, no distractions
+2) personal - yoga/ exercise/ tecnical learnings/ breathing
+3) professional - english exam, toastmasters, 3 days 6 50, 1 day - 5 20, 1 day - 7 45
+toastmasters at 4 15 leave to b2 tagore
+send flow chart -> design/ start smart contracts coding
+
+Todays tasks:
+***imp***aug29
+1. smart contracts - desing like starbukcs like aparna said before tomorrow , code finish before friday
+2. try aws @home to deploy sample asset transfer contract
+3. book for english test friday slot
+4. pendnig - UI 1 page learn, finish setup, integrate ui with blkchn
+
+pls raise the Ticket under Internet Access issues
+
+***imp***aug28
+raise ahd port opening as per lync chat
+do the smart contracts structs things for 2nd ctrct
+************************************************************************
+Sysco - Infosys logo colloboration -> meat background, check ppt
+
+farmer id/ lot id -> use it to mapping asset with lot of farmer
+***imp***aug28
+rename to inbound/ outboound
+
+chk once all, give input to all screens
+
+add time in , time out
+
+ask:
+inventory screen needed?? - no
+
+finish this - update latest screens to aashita, then for smart contracts work on it.
+send questions on functionality in irise about the actual UI of our project - Vinod mail
+
+smart contracts design:
+add time in time out to all contracts/ actors
+gtin/ gs1 needed - refer chrome tabs docs
+
+check with aashita for corrections to the images/ view history/ toher thigs in invision app prototype
+************************************************************************
+queries:
+1. do i need to keep all in 1 single contract?
+2. if i allocate separate contracts based on flow, do i need to add all actors in the contracts though they are not participating?
+3. for farmer/ ph - allcate all actors
+   for ph/ wh - allocate all except farmer
+   for wh/ dist - allocate all except farmer/ ph
+   for dist/ fso - allocate all except famrer/ph/ wh
+************************************************************************
+***imp***aug28               -> format
+
+**********************************************************************************************************************************
+
+Aug 27:
+https://forums.aws.amazon.com/thread.jspa?threadID=282890
+******************************************************
+Aug 24:
+
+1.	Use vertical boxes for lots/ whids in history screen
+2.	Check with Sai -> for UX design
+3.	Show multiple color codings in history screen:
+Good to use – Green
+Expire in a week - Amber
+About to expire today - Red
+Already expired – black
+4.	Show the states of assets in history screen/ who is the actor at each state of asset
+5.	When we key product id for e.g., it must show all the items that have expired -> better to list products on ascending order of expiry
+6.	Recall:
+a.	Temperature reject/ Contamination reject – handle and show them by auto initiation using IOT at times of power outage/ expired foods scenario
+b.	IOT feed – no feed, failure in IOT end
+7.	Mention the Exceptions: Input fields/ output fields/ actions
+8.	Improve the history screen/ focus on IOT/ recall
+9.	Use ->  Case instead of pallet because of easy expiry date handling & average package ordering by FSO
+10.	Recall – don’t have it in view history(it might lock db), have a separate button
+11.	Mention the use case/ assumptions(main business level)/ conditions in ppt
+
+******************************************************
+Aug 23:
+1. Farmer in his own app, creates lot IDs(lot of goats or lot of cows), its a unique number generated by the farmer in his own app
+2. Blockchain@2018
+
+
+share the link -> after call
+Details:
+sysco-key-pair-useast1
+34.234.218.244
+34.234.218.244
+eipalloc-0662a14a354f96122
+
+syscoaug21vpc
+useast1a
+Publicsubaug21
+Privatesubaug21
+
+route table for vpc created, for public subnet -> rtb-0e75f8eeac7189008
+secndpubsubnetaug21
+subnet-011d052aad96b8dfb
+
+secndpubsubnetaug21 subnet-011d052aad96b8dfb
+Publicsubaug21      subnet-01418c66aa4891446
+Privatesubaug21     subnet-0fbd23b0dc415579d
+
+EthereumEC2aug21-SG 
+EthereumALBaug21-SG 
+
+IAM:
+ECSRoleForEthereumAug21
+arn:aws:iam::666303174975:role/ECSRoleForEthereumAug21
+
+EthereumPolicyForEC2Aug21
+
+EC2RoleForEthereumAug21
+arn:aws:iam::666303174975:instance-profile/EC2RoleForEthereumAug21
+
+*****************************************************
+aws set up ethereum ----- smart contracts ------ ui design fix + coding ----- integration with ui
+Aug 18:
+1. As-is diagram/ sample minimal UI
+2. excel sheet with db -> in/ out of blockchain
+3. recall scenario/ other assumptions/ queries
+******************************************************
+Aug 9:
+To do:
+1. Finish UI design
+2. Document steps to retry etheruem aws setup, find how to deploy sample smart contracts
+3. once UI is fixed with Aparna, work on solidity
+4. 
+
+https://cloudconnect/
+http://laboncloud/Home/GetSlots
+******************************************************
+Aug 7:
+1. ping and check -> call aparna/ muthulakshmi - UI/ database design, call tell about soolidity/ ui idea at 1 40pm
+2. try in ohio once, call and check with Chacko/ John call at 2 30pm try to access the urls -> finish AWS this week, also finish solidity
+3. fix all attributes UI, send ppt as well to Mohan
+4. solidity fix once UI is done - give Aashita code to write
+
+as VInod said:
+focus only on below things, dont be a lead worrying about pjt when Vinod is ther,
+focus only on 1 particular task deliver twith [erfection:
+to do:
+1. UIfields as Mohan expected, send farmer screen with aashita inputs to Aparna
+2. look into other screens add the fields/ inputs from mohan to them
+3. once UI is done/ fiexed, look into solidity
+4. 
+************************************************************************************************************************
+Aug 6:
+To do:
+1. UI - fix, solidity code - finish, aws - follow up
+2. ravi goli team - aws follow up, chatbots plan, english test, toastmasters
+************************************************************************************************************************
+1 money - 
+
+infosys - prabhu/ sai/ balaji anna/ sathya
+
+syntel:
+kaushik, ravi tambi, 
+
+college:
+dharani, jerome
+
+freinds/ relative:
+ravi md uncle,  muthukumar mama
+
+school:
+gautam, jesline, santhosh, arun coimbatore???
+************************************************************************************************************************
+Aug 3:
+.add acpet/ reject at each actr level
+.thinks all rhe db/ atttributes from actor perpective
+.send to vinod eod
+************************************************************************************************************************
+Diageo:
+•	Edge/ NIA - Bryan, Amit, Hormazd
+•	IOT- Abhijit 
+•	Blockchain- Puneet , Sujith 
+•	Account- Sudhir, Katerina 
+
+https://www.packagingdigest.com/beverage-packaging/johnnie-walker-smart-bottle-performs-for-consumers-and-supply-chain150306
+https://www.diageo.com/en/news-and-media/features/johnnie-walker-announces-the-arrival-of-blue-label-ghost-and-rare-port-ellen/
+
+nia: nia provenance - blockchain application, 
+feed data was is sent
+nia provenance 
+aggreage level - case, pallet, container - trainedge(also analytics data stored) - kpi, dashboard analytisc - standard BI/ reporting feature
+currently - AI/ ML
+amit - consulting - service line
+few questions - > who is taking the bottom line for this proposal to anchor to customer?
+katerina/ some1?
+explore how blkchn will help -> blkchn servie line + nia provenance -> trade edge + analytics on top of it
+keep ppt as to olam format
+IOT, anaytics, tradeedge -> will have add ons section for its value
+separate value/ price
+4 sections = 1. blkchn, 2. incrementatl impact on comercial
+open source tech they want -> but nia is a propriatary product
+
+3things blckchan story - wat is the offerings?
+main sections
+impact on commercials
+
+corda/ hyperledger/ ethereum - nia has
+nia is a propriatory solution
+
+Nia provence:
+Businesses no longer see the onus to come clean as a burden, but rather as an opportunity to differentiate and grow. Traceability, Transparency and Trust are the levers that business turn to and this is the foundation for Nia Provenance.
+
+Tradeedge:
+One of the primary institutional voids in the emerging markets is the low penetration of organized retail – a key channel for product distribution in the developed markets. However, nearly 90% of sales in the emerging markets is driven by complex distribution networks comprising thousands of distributors and millions of small retailers
+***********************************************************************************
+Aug 2:
+
+i don't know how to put them in words 
+okay main things are
+
+tried dynamo db as well, tried with setting up the another linux instance
+1) If I got the terminal pop up thing and managed to create stack, does that mean all the previous steps are fine 
+2) how do i use curl to check the url 
+3) does me switching between networks affect anything except for the ip address (that i made sure is correct under the security group inbound rules)
+
+
+other questions:
+1. cant we try to setup ethereum on our own onto the AWS EC2 linux instances without using the ethereum templates as we dont have much docs on the ethereum templates
+2. 
+
+***********************************************************************************
+Diageo:
+put this is diageo:
+pilot by chinses new year 5th feb 2019
+implementation by mid sept
+
+RFI-solutions in market
+commercials not provided in rfi normally
+they want kind of POC - pbm statement - counterfiewt alcohol tracking
+pain points:
+counter feit/ gray marketing
+cross border trade
+
+***********************************************************************************
+Aug 1:
+1. send excel as mohan asked/ selva discussion
+2. try end - to -end from first along with what ravi said
+3. send questions mail to ravi/ mohan abt aws
+4. solidty change as per new UI wireframes
+5. ppt - inline to mohan - with flow of data/ screens - vinod send
+6. 
+7. 
+8. 
+***********************************************************************************
+July 31:
+To do:
+part a:
+ethscan.io
+1. ask mohan/ ravi goli - regarding aws approach/ can we use aws ethereum deployment instead of templates?
+2. submit ppt of flow/ excel sheet of app wireframes (or put in excel so that if you click one other page has to open, alter the ui as per selva's input
+3. meet him tomorrw morning
+4. show mohan/ vinod progress daily
+5. change smart contracts as per selva's discussion about lot/ po/ so/ palette/ case
+6. update the process flow in line to Mohan's ppt with sysco standards input
+
+part b:
+
+1. solidity mapping of mapping - finsh end - to -end basosc , hten wokr on adding more fields, checks, etc
+2. chek with munish/ aahita to get ethstats/ ethexplorer
+3. chk with vinod for ui team
+
+trial 1:
+address _foodInspector, address _syscoDistributor, string _trackID, string _farmerName, string _farmerId, string _cattleId, uint256 _cattlesInStock, uint256 _numberOfCattles, string _lotNumber, uint256 _price, uint256 _weight, bool _organic
+
+"0x14723a09acff6d2a60dcdf7aa4aff308fddc160c","0x4b0897b0513fdc7c541b6d9d7e929c4e5364d2db","TRK0001","Deepak","FMR0001","CTL0001",1000,200,"LOT0001",1000,1500,true
+
+bool _status, uint _batchId, string _batchType, string _batchSubType, string _batchInstruction, uint256 _temperatureBatch, uint256 packgId, bool status, uint packageId, string packageType, string packageSubType, string specialInstruction, uint256 temperaturePackage
+
+true,1000,"Meat","Sausage","Cold storage",4,2000,true,3000,"Sausagepkg","Sausagesub","Coooled",3
+***********************************************************************************
+July 27:
+To do:
+1. Mobile app agile session - 10 30 - 11 30 am  
+2. ccd - fix issue
+3. aws - blkchn mail send, try templates steps, try also ec2 diff steps to install etherum, tell aashita as well
+4. do smart contracts as aparna said, do with mapping of structs to structs, see below all month notes, calendeat notes of mobilem, pc
+
+sample:
+users:
+farmer: 0xca35b7d915458ef540ade6068dfe2f44e8fa733c
+foodinspector: 0x14723a09acff6d2a60dcdf7aa4aff308fddc160c
+address _foodInspector, string _trackID, string _farmerName, string _farmerId, string _cattleId, uint256 _cattlesInStock, uint256 _numberOfCattles, string _lotNumber, uint256 _price, uint256 _weight, bool _organic) public {
+
+construcoty:
+0x14723a09acff6d2a60dcdf7aa4aff308fddc160c,0x4b0897b0513fdc7c541b6d9d7e929c4e5364d2db,"TRK0001","Deepak","FRMR0001","CTL0001",100,20,"LOT0001",10000,1250,true
+send processsing:
+string _processingHouse, string _trackID, string _lotNumber, uint256 _quantity, uint256 _price, string _foodInspectorName
+"Tyson Foods","TRK0001","LOT0001",10000,1250,"Walter"
+
+add meartindo:
+string _trackID, string _productId, string _productSubType, uint256 _temperature, bool _isPoorQuality
+"TRK0001","PDT0001","Sausages",5,false
+
+
+
+
+0x692a70d2e424a56d2c6c27aa97d1a86395877b3a
+bool status, uint packageId, string packageType, string packageSubType, string specialInstruction, uint256 temperaturePackage
+true, 10001, "Meat", "PKGSB001", "Cold stored", 20
+
+***********************************************************************************
+july 26:
+need to update docs - parameters as per Mohan's ppt
+prepare a tech specs doc, update the requeiremnets ppt with architecture + ui screens excel
+refer questions doc to add more value to the project, use ipfs to store certificate hash.
+ask selva today about lots/ bnatches/ pakicages actiual concetp
+************************************************************************************************************************************
+july 25:
+"0x14723a09acff6d2a60dcdf7aa4aff308fddc160c","0x4b0897b0513fdc7c541b6d9d7e929c4e5364d2db","TRK001","Deepak","FRM001","CTL001",1000,20000,"Lot0001",1000,1250,true
+
+package info write: false,1000,"Meat","Cut Bones","Deep Freeze",2
+
+1. try this:
+mapping(address => mapping(uint => customStruct[])) s 
+mapping(batchID => mapping(pckageID => PackageStruct)) s 
+struct{  batchID,Batch Details, PAckage[]  }
+
+a. strct {package ID, PAckageDetails}
+b. strct { batchID,package ID, PAckageDetails} 
+c. mapping[batch Id to Batchdetails]
+
+visualise:
+Farmer creates Lot 1 -> goes to PH
+In PH -> goes out as Batch 1, Batch 2, Batch 3, etc
+In Distributor -> split into Packets -> Pkg1, Pkg2
+
+basic unit -> struct(package id, Packagedetails)
+Lot 1 -> Batch1 -> Package 1
+Lot 1 -> Batch1 -> Package 2
+Lot 1 -> Batch1 -> Package 3
+
+struct(batchid, packageid, packagedetails)
+Lot 1 -> Batch2 -> Package 1
+Lot 1 -> Batch2 -> Package 2
+Lot 1 -> Batch2 -> Package 3
+
+mapping(string => batch)
+Lot 1 -> Batch3 -> Package 1
+Lot 1 -> Batch3 -> Package 2
+Lot 1 -> Batch3 -> Package 3
+************************************************************************************************************************************
+july 24:https://aws.amazon.com/partners/blockchain/
+V2 - > without mapping commited
+V3 - with mapping
+
+try to use push transactions to struct, need to see how to read this from blockchain
+
+"TRK001","Deepak","FRM001","CTL001",1000,"Lot0001",1000,1250,true
+"Tyson Foods","Lot0001","Trk0001",100,10000
+
+0xca35b7d915458ef540ade6068dfe2f44e8fa733c farmer
+0x14723a09acff6d2a60dcdf7aa4aff308fddc160c food processing house
+
+To do:
+July 23:
+1. Finish Wireframes today - submit UI to UX team, finish smart contracts fields today
+2. tomorrow - smart contracts start
+3. 
+************************************************************************************************************************************
+To do:
+July 20:
+.show wirefreame to vinod
+.smart contract sheet, DB sheet(blkchn, sql)
+.call ravi goli for aws id
+
+To do:
+July 18:
+1. 
+Chatbots:
+.Remove that looping logic for 
+.Test for user input as uowuser18
+.make UI clean, remove passive text, keep all buttons in 1 div - ask pradeep
+.see if mp3 is sent to lex/ text is sent as u can see now text in console
+.guide neeraja
+
+2.
+Blockchain:
+.research abt fields and discuss with Vinod
+.dont speak more about telling about feedback, speak normal, get work done
+.help her, give small tasks as per u, see what you can review from her work - u r now a lead
+.plan, execute, follow up, update team status
+.tomorrow draw the UI sample screens with fields with him
+.learn angular2/ node/ express to develop/ contribute, in this pjt u will know entire DAPP
+
+steps: send mail to aashita/ vinod
+1. Get AWS account ID for creating Ethereum blockchain
+2. Get sample smart contracts running in AWS ethereum
+3. Develop actual smart contract as per our use case in Ethereum
+4. Develop web app(browser based) - Get necessary UI softwares installed - tech/ softwares needed - node, express, angular, html, css, js
+5. Using JSON RPC - web3 js interact with Ethereum from the client app
+
+Extras:
+attend mongo db class = 9 30pm today
+attend aws blockchain = 19 july, get certification
+
+future:
+attend oracle blkchn session
+attend microsoft blkchn session in aug in bang, get aws training/ certification - follow up sriram
+get onsite pjts in blkchn
+ask vivek - xpo
+ask Mohan - Assosiate consultant role exam
+english test
+attend agile
+
+notes:
+farmer
+tyson
+syusco
+consumer
+add logic to calculate expiry/ haccp/ organic certificatied(not fed antibitoics/ chemicals/ haccp/ fda)/ gi tag - for higher price
+*********************************************************************************************************************************************
+focus on taking speech/ transcribed console text to chat window
+do ui changes - fixes
+
+take stream -> createaudiobuffer,  audiobuffer output
+else rewrite,
+
+access key: AKIAIQSWDUJH7Z5SXMYQ
+secret key: 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
+botname: PasswordBot
+
+passwordreset bot ui - must not go out
+text area will have speaker button, it must work in background
+
+audiobuffer, 
+
+put all js files to scripts folder
+do npm isntall to get node modules needed
+
+ask selva about ppt right?/ data goin to be in future with iot to check meat traceability
+sample data/ p-o-ctct for sample data/ flow
+
+D:\Projects\2018\02_Projects\02-AWS Chatbots\July folders\July17 -> integration of github with our ui.
+
+Hi Aashita, this is Deepak. How are you?
+
+Just wanted to discuss with you on whats going on.
+
+when you will be back? monday - learn aws templates for ethereum blockchain, ppts, remix ethereum
+
+skill sets??
+
+4-5 weeks
+
+need to go thru --->
+
+help needed -> aws blockchain, dynamo db, templates, 
+
+have this on top.
+to do:
+https://aws.amazon.com/blogs/machine-learning/capturing-voice-input-in-a-browser/ 
+english test this week/ next week
+chatbot - voice input/ ppt for mohan/ Phone calls - photographers & bank/ sandhya
+Sysco Blockchain mobile app food/ meat tracking - see photo of diag in cell: 1. use case in line to sysco 2. guide Vinod/ Aashita on blockchain 3. architecture diag of ethereum aws 4. wireframes in excel of actual lookalike of mobile apps 5. include IOT/ diag/ DB in ppt
+6. Mohan to get details about mobility team about mobile apps/ AWS team for AWS account for ethereum
+
+ppt work:
+pain points , future process to be
+
+attend iit class
+finish BCM cert exam, aug bang azure session(update lavanya a pjtm angr), collect the gift from ramya, after these blockchain pjt, onsite
+
+must do:
+http://sparshv2/portals/QualityAcademy/Pages/Quiz.aspx
+http://laboncloud/
+************************************************************************************************************************************
+july 11/ 12:
+1. chatbot lex audio dsend-  
+Recording and exporting audio, speak with anand
+see architecture things, draw diag, meet sysco, ask mohan help for aws team, think how txid mapped to data in blkchn
+
+************************************************************************************************************************************
+fontawesome/ svg
+https://jsfiddle.net/sasivarunan/bv55z5fe/
+
+the password reset for uomuser18
+
+july 10:
+1. working - input voice saved - Password_Reset_Chatbot_July10_media__V01, loaded in s3, need to send this audio to lex
+2. 
+
+************************************************************************
+July 9: Do 21 day challenge from today!!!!!!!!!!!
+1. Chatbots
+2. Phone calls
+3. Blkchn/ driver issues/ nature of work - word doc prepare, share today EOD Madan
+4. English test friday - prepare
+
+&#128266;
+Hello, How can I help you today? You can say things like "I need to reset my password" or '"Can you please reset my password?" or “Help me with password reset" etc.
+
+&#x1F508;
+
+&#x1F50A;
+
+************************************************************************
+driver issues/ nature of work analysis:
+....https://www.joc.com/trucking-logistics/labor/survey-driver-shortage-top-problem-facing-trucking_20171023.html
+Currently, our industry is short 50,000 drivers. And if the trends continue, that number will double to 100,000 in just five years,” said American Trucking Associations (ATA) president and CEO Chris Spear in his state of the industry address at an annual gathering of the ATA.
+
+Last year was the second year in a row driver costs represented the highest percentage of overall costs for trucking operators, ATRI found, and that trend is likely to continue as permanent solutions to the shortage will take time to put into action, and still longer for their impact to be felt.
+
+With trucking volumes surging and carriers hiking trucker wages to lure drivers, the shortage of skilled drivers is the trucking industry’s top concern for the first time in 11 years, according to the American Transportation Research Institute (ATRI).
+
+older drivers reluctant to learn new technology opt for retirement
+
+....https://www.joc.com/trucking-logistics/ltl-shipping/eld-mandate-magnifying-us-truck-capacity-shortage_20180213.html
+US trucking capacity is tightening faster than anticipated in the electronic logging era, and some shippers say that is making it tougher and costlier to move freight as they navigate between higher costs and increasingly constrictive customer demands.
+
+Trucking capacity is tightening faster than anticipated in the electronic logging era, as a messy start to the electronic logging device (ELD) mandate is making a bad situation worse for shippers, forcing the latter to pay more, speed up loading and unloading, and dig deeper into routing guides to find capacity. 
+
+Shippers are digging deep into their routing guides, lists of trucking companies they use in specific shipping lanes, to find carriers with available trucks. Carriers are turning down tenders or dropping loads, and drivers are refusing trips they fear will cut into their earnings
+
+....https://www.bloomberg.com/view/articles/2018-02-09/the-u-s-is-running-out-of-truckers
+The trucking industry is unique because it's the lifeblood of moving goods around the country, representing 70 percent of the nation's freight volume by weight. Without enough trucks and drivers on the road, some combination of things is going to happen: Shipments will be delayed, and producers will have to pay higher prices to get goods to market.
+************************************************************************
+5ac
+394
+
+3750
+2bhk - 56/57 984sqft, 
+gated
+adroit district
+
+$('#notAnElement').length > 0
+
+call with ram:
+/*********************//*********************//*********************//*********************/
+July 3:
+1. https://www.cronj.com/blog/node-js-text-speech-using-aws-polly/
+1) install the .NET Framework 2.0 SDK 2) install Microsoft Visual Studio 2005 or 3) add the location of the component to the system path if it is installed elsewhere.
+
+npm install speaker --save
+
+2. https://www.siili.com/stories/creating-voice-recognition-bot-web-app-amazon-aws-lex -> its a react app in github
+D:\Projects\2018\02_Projects\02-AWS Chatbots\Static website\July\Pradeep_Fixed_Full_Version_July3_V2
+
+3. polly module integrate using events.json in candidatecarecdt bot
+/*********************//*********************//*********************//*********************/
+June 29:
+To do:
+1. Chatbots
+2. ppt xpo/ sysco
+3. learn eng/ see notes/ mail calender
+
+1. Chatbots
+started 10 30am polly chatbots
+
+https://s3.amazonaws.com/cognitotestaws/Test_Audio.mp3
+
+this.emit(':tell', '<audio src="https://s3.amazonaws.com/cognitotestaws/Test_Audio.mp3" />')
+
+add the polly lambda to the candidate care lambda, try to access the mp3 from s3 from ui and play in web app
+
+both are bit customer built not 3rd party
+driver pro is 3rd part, mst is cutomer bult
+unified sysco truck is needed in case of subsidiary
+mileage based - check if its recorded in a device, add this to sysco, not a challence but a opportunity
+
+feedback for customre/ driver
+
+do we need to add this? - 3rd party truck in case of damage the entire invoice is gone. -> ask selcva
+
+in xpo - how is mileage calculated??? 
+
+notes:
+in xpo single app used, the app is in construction to handle the customer feedback
+
+
+chatbots - how to call polly events from lambda??? add the code to include in candidatecare lex bot
+
+/*********************//*********************//*********************//*********************/
+
+5lacks
+10858 = 5yrs
+/*********************//*********************//*********************//*********************/
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "InventoryAndAnalyticsExamplePolicy",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "s3.amazonaws.com"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::cognitotestaws/*",
+            "Condition": {
+                "ArnLike": {
+                    "aws:SourceArn": "arn:aws:s3:::anandtestaws/*"
+                }
+            }
+        }
+    ]
+}
+
+Hi Polly. I am Deepak.
+
+5.1   33
+1.5   x
+
+polly_test_role - policy
+lambda_polly_test_role
+To do:
+
+meeting with mohan june 25:
+1. improve communication, attend trainings, certifications
+2. grab opportunity at first, do ur fullest, show full commitment at first time itself
+3. automation pwd chatbot - anand/ aws blockchain research - self + blkchn sme/ xpo-like last mile connectivity - vinod
+
+improve html/ css/ js - say u r a expert, speak confidently with mohan, believe mohan, dont say no to mohan
+
+Akhil V. R.: 
+Hi Deepak
+missed to reply yesterday
+we have not got client approval for the block chain project yet
+they are still relooking at the staffing plan and revised requirements
+
+will provide an update as and when i have it. nothing is finalized yet due to budget constraints from the cient
+
+amazon lex chatbot with amazon connect contact center
+
+sriram divine city
+1152-55-62lacs
+pay only 4000rs only
+
+tejas lake view-siruseri
+3bhk-45 - 1255-2 balcony,carpet-1067,uds-46%%,25free,
+
+follow up on status mails - sent items/ do all below undone
+write below:
+*********************
+To do:
+1. ask vaithi - finish work before 6 pm
+2. goto sbi, keep thumb, go with jeddy, analyse go thru docs 
+3. tomorrow/ wednesday sign docs
+4. attend interview at 9 30 pm today - consultancy freelns
+5. attend interviwe on 3pm thursday - wipro
+6. submit bank docs, karthik
+7. do itr before 31 june
+
+*********************
+Blockchain status:
+1. ask him/ katerina for diageo pjt srikanth_challa
+2. ask Akhil_VR@infosys.com/ vivek for xpo pjt statsu, go to trivandram finish the pjt as ba
+2.a. other pjts - rl/ fung li, metro pjts - follow up
+3. attend bangalaor training/ attend and do trainings certidficates in sparsh aws as rijju said, claim money, do 2 certifaications(agile/ aws) per year - 1 in blockchain/ 1 in aws
+
+p.lexresponse margin 40px
+
+.otherclass = div border = background
+
+working upto 3 30 pm
+
+1. get teams from dynamo db and remove the json hardcoing from lambad
+2. do same as mysampledialogintent -> chk slot to leicit for null, then have one more callback with diff slottoelicit value(action)
+3. do 1 morel oop for (content)/ see error handling also later
+/*********************//*********************//*********************//*********************/
+to do:
+june 12:
+1. only basic lex with all flows today - keep only 1 intent/ read from db, use 1 response card, juse action, reuse same for other flows a anand said
+2. tomor fix, UI
+3. delivery thursday
+
+60000 - 10 = 1,33,178
+60000 - 9  = 1,22,971
+60000 - 8  = 1,13,547
+60000 - 7  = 1,04,845
+60000 - 6  = 96,810
+
+Total      = 577000
+
+maximizer = 12.5% => 98%
+income = 7% => 2%
+
+icici site: 4% = 327000
+8 % = 450000
+
+8 => 450000
+12.5 = x
+can get upto 700000 at end of 10 years, can be more based on loyalty / wealth boosters
+
+candidateDetails: function (intentRequest,callback){
+    
+    const sessionAttributes = intentRequest.sessionAttributes;
+    const slots = intentRequest.currentIntent.slots;
+    var requestID = slots.RequestID;
+    
+    console.log("Deepak friday");
+    if (ordList.length > 1) {
+        for (var i = 0, len = ordList.length; i < len; i++)
+    
+         if (RequestID != 1)   {
+            var msg = `The Order # ${requestID} has finished `
+            callback(nextIntent(
+            sessionAttributes, {
+                'contentType': 'PlainText',
+                'content': msg  
+            }));
+        }
+        requestID = null;
+    }    
+            callback(dialogIntent(sessionAttributes,intentRequest.currentIntent.name, slots, "RequestID"));
+            
+        
+     }
+
+}
+
+Current Sysco Associates
+Vendor
+Non-Current Sysco Associates
+
+Action
+Team
+Content
+S.No
+***************************************************************************************************************************
+Current Sysco Associates
+How to Locate your Password
+If you are unsure of your password, press 6 and you will be transferred to the Service Desk to reset your network password. Follow the prompts to reset your password.To repeat this message press 9. To return to the previous menu, press 8. 
+
+Where am I in the Recruiting Process?
+You can check the status of your application by logging into your candidate dashboard with your Username and Password. Once you are logged in, you may view the status of your application under JOB APPLICATIONS, clicking on JOBS APPLIED to view the positions you have applied for and the status of each application. To repeat this message press 9. To return to the previous menu, press 8.4.
+
+To Reach a Candidate Care RepTo
+To speak with a Candidate Care Representative, please stay on the line and someone will be with you momentarily. To repeat this message press 9. To return to the previous menu, press 8.
+***************************************************************************************************************************
+How to Apply for Positions
+
+Non-Current Sysco Associates
+How to Locate your Username
+Your username can be located in the Candidate Account Creation notification sent to the email you recorded on your candidate profile. Although you can change the email address recorded on your candidate profile at any time, your username will always remain the same. Do not create another account. If you are unable to login, press 0 to speak with a Candidate Care Representative.To repeat this message press 9. To return to the previous menu, press 8.3.
+
+How to Locate your Password
+If you do not remember your password, please click the “Forgot Password” link on the login page to reset your password. Do not create another account.If you are unable to login, press 0 to speak with a Candidate Care Representative. To repeat this message press 9. To return to the previous menu, press 8.4.
+
+Where am I in the Recruiting Process?
+You can check the status of your application by logging into your candidate dashboard with your Username and Password. Once you are logged in, you may view the status of your application under JOB MANAGEMENT, clicking on JOBS APPLIED to view the positions you have applied for and the status of each application. To repeat this message press 9. To return to the previous menu, press 8.5.
+
+To Reach a Candidate Care RepTo
+To speak with a Candidate Care Representative, please stay on the line and someone will be with you momentarily. To repeat this message press 9. To return to the previous menu, press 8.
+***************************************************************************************************************************
+order delivery status for 102-155085
+If you are a current Sysco Associate, press 1. 
+If you are not a current Sysco Associate, press 2.
+If you are a vendor, press 3.
+To repeat this message, press 9.
+
+
+		function showResponse(lexResponse) {
+
+			var conversationDiv = document.getElementById('conversation');
+			var responsePara = document.createElement("P");
+			responsePara.className = 'lexResponse';
+			
+				
+				responsePara.appendChild(document.createTextNode(lexResponse));											responsePara.appendChild(document.createElement('br'));
+			
+
+			conversationDiv.appendChild(responsePara);
+			conversationDiv.scrollTop = conversationDiv.scrollHeight;
+		}
+
+order delivery status for 102-270988
+order delivery status for 102-271228
+order delivery status for 102-155085
+order delivery status for 102-474692
+order delivery status for 102-218065
+order delivery status for 102-474692
+order delivery status for 102-270335
+order delivery status for 102-161174
+order delivery status for 102-315317
+order delivery status for 102-251884
+order delivery status for 102-242586
+order delivery status for 102-473819
+order delivery status for 102-241737
+order delivery status for 102-430827
+order delivery status for 102-148981
+order delivery status for 102-062075
+order delivery status for 102-216580
+order delivery status for 102-252106
+order delivery status for 102-473819
+order delivery status for 102-233353
+
+order delivery status for 102-271228
+
+************************************************************************************************************************************************
+June 7:
+https://github.com/amazon-archives/amazon-cognito-identity-js/issues/508
+https://github.com/aws/amazon-cognito-auth-js/ 
+
+https://developers.google.com/+/web/signin/#enable_the_google_api
+846068638840-73sog78i86aok7ini0ebaq4g5tq3nqf0.apps.googleusercontent.com
+J8oUp7_cpyCiwN5-RGo-Yj09
+
+************************************************************************************************************************************************
+
+June 6:
+User pool June 6
+Myapp_June6
+
+clinet ap p id:
+74f87jbj2c6u23ilnf1l66mie3
+
+https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/login.html
+
+google:
+My Project User Pool June 6
+
+My Product June 6
+
+domain name:
+chatbot-june06-trail01
+
+auth-chatbot-june06-trail01
+
+https://auth-chatbot-june06-trail01.auth.us-east-1.amazoncognito.com
+
+Web client 3 user june 6
+
+https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/login.html
+
+284962336421-4i2kth8hljuufduc7jjlvtl88o1ah30l.apps.googleusercontent.com
+BgkBjrtXTV4QvZDRj1XimMd2
+
+
+Urls and their responses in browsers:
+********************
+https://https://auth-chatbot-june06-trail01.auth.us-east-1.amazoncognito.com/login?response_type=code&client_id=284962336421-4i2kth8hljuufduc7jjlvtl88o1ah30l.apps.googleusercontent.com&redirect_uri=https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/login.html
+
+error "DNS_PROBE_FINISHED_NO_INTERNET", so
+********************
+https://auth-chatbot-june06-trail01/login?response_type=code&client_id=284962336421-4i2kth8hljuufduc7jjlvtl88o1ah30l.apps.googleusercontent.com&redirect_uri=https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/login.html
+this also error
+"DNS_PROBE_FINISHED_NO_INTERNET"
+********************
+https://auth-chatbot-june06-trail01/login?response_type=code&client_id=284962336421-4i2kth8hljuufduc7jjlvtl88o1ah30l.apps.googleusercontent.com&redirect_uri=https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/login.html
+"DNS could not be found"
+********************
+atlast this was the same error that came on june 5th:
+https://auth-chatbot-june06-trail01.auth.us-east-1.amazoncognito.com/login?response_type=code&client_id=284962336421-4i2kth8hljuufduc7jjlvtl88o1ah30l.apps.googleusercontent.com&redirect_uri=https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/login.html
+
+"An error was encountered with the requested page."
+"1 validation error detected: Value at 'clientId' failed to satisfy constraint: Member must satisfy regular expression pattern: [\w+]+"
+********************
+
+doubts:
+point 7:(in https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-configuring-app-integration.html)
+Clear the option Generate client secret for the purposes of this getting started exercise, as it would not be secure to send it on the URL using client-side JavaScript. The client secret is used by applications that have a server-side component that can secure the client secret.
+
+sign in pagE:
+
+https://your_domain/login?response_type=code&client_id=your_app_client_id&redirect_uri=your_callback_url
+
+https://your_domain/login?response_type=token&client_id=your_app_client_id&redirect_uri=your_callback_url
+
+https://www.example.com/#id_token=123456789tokens123456789&expires_in=3600&token_type=Bearer 
+********************
+values for subtitution:
+auth-chatbot-june06-trail01.auth.us-east-1.amazoncognito.com
+284962336421-4i2kth8hljuufduc7jjlvtl88o1ah30l.apps.googleusercontent.com
+https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/login.html
+after substitution:
+
+********************
+https://auth-chatbot-june06-trail01.auth.us-east-1.amazoncognito.com/login?response_type=code&client_id=284962336421-4i2kth8hljuufduc7jjlvtl88o1ah30l.apps.googleusercontent.com&redirect_uri=https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/login.html
+""An error was encountered with the requested page."
+"1 validation error detected: Value at 'clientId' failed to satisfy constraint: Member must satisfy regular expression pattern: [\w+]+""
+********************
+https://auth-chatbot-june06-trail01.auth.us-east-1.amazoncognito.com/login?response_type=token&client_id=284962336421-4i2kth8hljuufduc7jjlvtl88o1ah30l.apps.googleusercontent.com&redirect_uri=https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/login.html
+""An error was encountered with the requested page."
+"1 validation error detected: Value at 'clientId' failed to satisfy constraint: Member must satisfy regular expression pattern: [\w+]+""
+********************
+https://www.example.com/#id_token=123456789tokens123456789&expires_in=3600&token_type=Bearer 
+error: "www.example.com took too long to respond." 
+********************
+
+Sample Chatbot User Pool
+
+App client in cognito:
+Sample Chatbot App
+App client id: 1g8vh6tpg4jepnqhllfj5cb1og
+
+My Project Sample Chatbot/ My Project Chatbot sample
+Chatbot Sample product/ Chatbot product Sample 
+authorised js plugin : https://s3.console.aws.amazon.com
+https://s3.console.aws.amazon.com/oauth2/idpresponse
+
+513104417010-j3e5uk70lv9tllb1jvd1v48n5fv7m7e9.apps.googleusercontent.com
+FRIQKDuVNM30F_bFEx1_hULs
+
+https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/index.html
+
+
+https://<your_user_pool_domain>/login?response_type=code&client_id=<your_client_id>&redirect_uri=https://www.example.com
+
+https://https://s3.console.aws.amazon.com/login?response_type=code&client_id=1g8vh6tpg4jepnqhllfj5cb1og&redirect_uri=https://www.example.com
+*************************************************************************************************************************************************
+June 5 User Pool
+MyApp June 5
+app client id: 1naj61qi9uob20cdu6odem5f2g
+My Project June 5
+My Product June 5
+mysamplejune5url
+https://mysamplejune5url.auth.us-east-1.amazoncognito.com
+product name:Chatbot product Sample June 5
+Web client 1 June 5
+269635989414-374pion9l77v9dbgm70hh70nd086vmsj.apps.googleusercontent.com
+jbCU3FT5griOiPTG2LBiq7Tu
+
+
+https://mysamplejune5url.auth.us-east-1.amazoncognito.com/login?response_type=code&client_id=269635989414-374pion9l77v9dbgm70hh70nd086vmsj.apps.googleusercontent.com&redirect_uri=https://s3.amazonaws.com/anandtestaws/CSG_Order_Assist_V2/index.html
+
+/*********************//*********************//*********************//*********************/
+June 4:
+To do:
+1. SAML
+2. News/ other stuffs learn
+3. Muthu work
+4. call darani/ ramu for online upload
+5. say yes immediately for online test/ interview
+6. take up certification
+
+************************************************************
+
+May 31:
+see below undone
+say ok for bangalore
+fix the bug for "Hi"
+update:
+1)
+created table succesfully inhtml but outside chatbnox(have to click every time to get table data)
+file:///D:/Projects/2018/02_Projects/02-AWS%20Chatbots/Static%20website/May28_May31/AWS%20chatbots_May31_V1/index.html?
+
+        D:\Projects\2018\02_Projects\02-AWS Chatbots\Static website\May28_May31\AWS chatbots_May31_V1
+
+2) testing out auto creation of table:
+to do: remove the button click and auto generate table when u hit the request in chatbot:
+
+D:\Projects\2018\02_Projects\02-AWS Chatbots\Static website\May28_May31\AWS chatbots_May31_V2
+file:///D:/Projects/2018/02_Projects/02-AWS%20Chatbots/Static%20website/May28_May31/AWS%20chatbots_May31_V2/index.html
+
+
+3) bug fix: file:///C:/Users/deepak.kumaraguru/Desktop/Bug%20fix/AWS%20chatbots_May30_V1/AWS%20chatbots_May30_V1_Bug_Fix/index.html
+C:\Users\deepak.kumaraguru\Desktop\Bug fix\AWS chatbots_May30_V1\AWS chatbots_May30_V1_Bug_Fix
+
+
+4) AWS cognito: analyse, report how to do:
+/*********************//*********************//*********************//*********************/
+May 30:
+add a chekc to see if(||) then do buttons else skip
+
+remove unwanted variab;es, display variable
+reduce lines of code
+remove codes from erperitive loop
+keep all of them above
+keep meaningful names to variables]
+
+
+
+C:\Users\deepak.kumaraguru\Desktop\May30 - untouched base is here
+make sure the bottstrap pradeep addd is consoilidated to thiscode
+make sure the changes to have buttopns in a singole woinfodw is here
+deliverv properly
+add values
+put proper comments
+do something extra, think from customer end, which makes them happy
+
+order delivery status for 068-600783
+013-411215
+************************************************************************************************
+May 29:
+To do:
+1. finish reading 6 webpages, pomodoro tech, 25 mins work, then rest, have small goals
+2. 2 tasks: consume json for multiple clicks events, create small table as Anand said inside the chat window itself
+3. do bootstrapping for pop up window - get from pradeep
+
+notes:
+take working backup from vaithi sent mail on may 29 11 30am 29V1
+
+understanding from anand:
+dialog intent means chatbot provides list of responses and expects input from user
+elicit slot means the chatbot expects user to key in the particulat slot's value as per the bot specification
+nextintent means -> like on clcik request - response where there is no dialogue like thing
+elicitintent means the reponses is for particulat intent  only
+
+
+use next intent in node, elicit intetn in ui to see if it calls multiple times/ or fails like response card
+
+json can also be sent to ui but pbm is its a repetive task with multiple calls again
+
+by using the changes in node js, multiple calls to aws can be saved
+
+approach by anand:
+using nextintent frame the order ids and send to UI as all the checking are in node js already
+use this to form buttons
+use either 1 of below next:
+ hardcode utterencae to return the order id details fro specifc order id by button click function in UI
+ use elicit slot and get the order details using the aacnnt no / order id details
+
+**********
+
+elicit slot:
+elicit intent:
+next intent:
+learn the node js, work
+
+solution to follow:
+get json set up to fetch dynamic values from node js
+{
+"123456":"The order has been delivered at so and so time"
+"456657":"The order will be deliverd at so and so time"
+}
+then get 
+************************************************************************************************
+
+keep code in sysnc with Padep's code
+
+May 25:
+To do:
+1. always note down wat to do in a mail and send across team
+2. Spoke with Anand:
+.Approach 1: see the max orders possible in UI(with response card) - if its clumsy, make it easily readeable
+.Approach 2: if its clumsy, with response card approach, make order list: 2 * 2 rows or 3 * 3 rows
+.Approach 3:without resposne card if (find the no: u can set in if case(if > 5 or 6)
+.Approach 4: without resposne card if max rows is got(>6), click here link will fetch you a iframe in free space in current UI to display the order details: order no/ order status/ dat(or)/time
+.
+.
+
+
+2 rows -> 1 st row process -> get 1st order id, create 1 button with that order id as value & ID
+2nd row is processed -> get 2nd order id, create 1 button with that order id as value & ID
+
+when & where to do event binding
+
+data comes in, have to display both buttons
+/*********************//*********************//*********************//*********************/
+May 17:
+D:\Projects\2018\02_Projects\02-AWS Chatbots\Static website - V2 last working versino
+
+
+\start yiur testing on v3 -> create event
+
+
+see arsath chat, goto vaithi desk, sit with him, finish it
+
+passwords revamp azure app builder workbench:
+munish:
+infy_146099
+apr@2009
+
+Ramya:
+inf_654392
+msu1808*
+
++65 88000176  
+mangalika singapore
+044-47411111
+
+container to customer at rigin place to picukp, 
+shipemetn wil be created, go torelay location, then delivery pt
+then goosd taken from cobnntainer, container once goods sent must be back - put in contract
+
+
+container/invoive/cargo status tracking in blkchn
+
+put 1 button -> sessioatttribute/ slots/ all values coming ah? chk in sysou
+put 1 button - onclick event -> dialogintent -> take tresponse card buttons
+
+/*********************//*********************//*********************//*********************/
+TO do:
+talk with Anand:
+1)
+dialog intent -> session intent -> get the json response using test configure event
+use that json and convert to html & create the click events in html (URL) to solve the issue.
+To know:
+CSG_assist bot
+testmyfunciton - lambda func name
+take that func and create new func, play with it, create evetrns for it
+
+
+2)
+ChatBot_AccountAssist -> replace this after ur testing in CSGAssistBot for EscalationPOC
+
+
+
+Talk with Vaithi:
+response card
+node js/ lex
+csgassist - lambda func
+sees rthe code
+dialogue intent
+327 - 375 multypile orders
+from user to func
+
+s3 - csg-order-assist - ui
+
+********************************************************
+May 14:
+
+To do:
+1. Starbucks:
+karan mail
+check with ramya/ munish on admin access test/ karan's - tell them u put that in microsoft group
+changes:
+prioof of authority consensus
+solidity version 0.20
+workbench base is the class used instead of Lexington base (or) app builder base
+state,string, money datatypes in new verison
+
+2. ask aparna waht changes she ddid? did she caomplete callingconrract?
+
+3. speak wuth satya, saba, raj/ text them
+
+6716ebcd-593b-438c-a7f5-8dc5405cac7f
+
+********************************************************
+********************************************************
+********************************************************
+Hi Team,
+
+I have made sure that my ID is added as guest user in Azure Active Directory in Azure portal(for BLockchain Workbench).
+
+My teammate has created blockchain application url, when I login with the email ID, I am able to see my ID when I click the membership icon. But when I upload a contract succesfully & when I try to add my ID as Member, I am unable to add my ID. Its not visible.
+
+I double checked that my ID is added in the Blockchain API client app.
+
+Please let me know what needs to be done.
+
+Thanks in advance!
+
+Regards,
+
+
+
+func area, team, search description
+elicitintent - 5/ elicit slot      -> asking a question, elicit slot define
+more than 5, send response, send 1 intemt/questyion in bot
+db put[ut in list
+which team???/ all u need???
+put teamvariable update
+ashow result for team variable
+
+
+
+To do:
+1. edit json to export file - aws
+findings:
+a) same slot type name in diff bot in same account is not accepted, every bot must have unique slot names. but same slot name can be used at many intents in a bot
+b) same slot name can be used for diff bots in same account
+2. edit json to export contracts file - app buidler
+
+
+//Deepak changes CHN002
+    var pocFuncArea = slots.FuncArea;
+    var pocSubArea = slots.SubArea;
+    var pocTeam = slots.Team;
+
+    var escFuncArea = slots.EscArea;
+    var escSubArea = slots.EscSubArea;
+    var escTeam = slots.EscTeam;
+
+
+
+query:
+escsubtem, etc are also in sbsinquiry func
+
+
+i>5
+post question to user, what he wants specific?
+display only those user wants
+chk if phone no there or not
+
+i<5
+display all
+chk if phone no there or not
+/*********************//*********************//*********************//*********************/
+
+May 9:
+TO know:
+1. how event values passed are mapped with some1's intents/ slots
+2. how to link with lambda
+3. see the code
+4. how roles define permission???
+
+
+cust suppport group
+
+Interview on Saturday mind:
+1. Hyperledger
+2. Ethereum
+3. Blockchain
+4. Projects - resume prepare
+5. save all necessary code/ snippets/ imp stuff to gmail , prepare daily in office & at home
+
+************************************************************************************************************************
+To do:
+************************************************************************************************************************
+May 7:
+1. Anandha: chatbots: AWS: https://199299687399.signin.aws.amazon.com/console 
+Deepak_Kumaraguru / Sysco@123 
+BOT NAME - OrderStatusBot
+ 
+Lambda - CSGAssistant 
+work with anandha
+
+2.
+help aparna, gas lmit, cross contracgt call.
+munish:
+manifest fikile app client - group status member ship
+boolean call return for every call
+
+3. chk with mohan/ rachit pandey for pjts
+
+
+4. see wat else pending in notes/ calender/ jan2018 notepad, new url, gas lmimt increase
+
+
+work:
+code 1:
+exports.handler = (event, context, callback) => {
+    // TODO implement
+    callback(null, 'Hello from Lambda');
+};
+
+code 2:
+exports.handler = (event, context, callback) => {
+    // TODO implement
+    callback(null, {
+        "dialogAction": {
+            "type": "Close",
+            "fulfillmentState": "Fulfilled",
+            "message": { 
+                "contentType": "PlainText",
+                "content": "You requested some product"
+            }
+        }
+    });
+};
+
+************************************************************************************************************************
+Imp:
+************************************************************
+AWS: https://199299687399.signin.aws.amazon.com/console 
+Deepak_Kumaraguru / Sysco@123 
+BOT NAME - OrderStatusBot
+ 
+Lambda - CSGAssistant 
+************************************************************
